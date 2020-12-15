@@ -1,0 +1,337 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title instaProtek
+        link(rel="stylesheet", href="css/main.css")
+        link(rel="stylesheet", href="css/slider.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css")
+
+    body
+
+        header.header
+            .nav_container
+                img.nav_logo(src='/image/logo_insta.png' alt='instaProtek')
+                .nav_links
+                    a.link.active(href='#') Home
+                    a.link(href='#') Products
+                        img(src="image/drop-down.png", alt="")
+                    a.link(href='#') Corporate
+                        img(src="image/drop-down.png", alt="")
+                    a.link(href='#') Buy Protection
+                    div(style='padding-left:16px')
+                button.sub_btn(type='submit') Sign In
+          
+        #slide-window
+            
+            ol#slides(start='1')
+                li.slide.color-0.alive(style="background-image:url('image/Phone-Rack_v2.png');")
+                li.slide.color-1(style="background-image:url('image/Phone-Rack_v2.png');")
+            span#left.nav.fa.fa-chevron-left.fa-3x
+            span#right.nav.fa.fa-chevron-right.fa-3x
+
+        .left-home-container 
+            p Warranty Program
+            h1 Protection Plans for All Electronics
+            p A Low-Cost and Painless Protection Coverage To Avoid Future Inconvenience Because Accidents Happen.
+            button(type='submit') Get Started Now
+            .left-home-container-google 
+                img(src="image/google-play-badge.png", alt="Google Play")
+                img(src="image/app-store-badge.png", alt="Google Play")
+        
+            .logoipsum-title
+                p.title TRUSTED BY BRANDS:
+                div
+                    img(src="image/logo-02.png", alt="Logo Ipsum")
+                    img(src="image/logo-03.png", alt="Logo Ipsum")
+                    img(src="image/logo-02.png", alt="Logo Ipsum")
+                    img(src="image/logo-03.png", alt="Logo Ipsum")
+                    
+        div              
+          .container-section-app
+                .content-section-app
+                     h3 Lorem ipsum dolor sit amet, conseteur. 
+                        button.btn.section-app(type='button') Download App
+
+        .home-second-section
+            .home-second-section-container
+                img(src="image/tsignal.png", alt="Signal")
+                h1 Why instaProtek?
+
+        .home-right-second
+            img(src="image/bg-second.png").bgimg
+            .home-right-second-container
+                .row_content
+                    h1 On Demand, Easy to Use, App Driven Protection.
+                    p Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod et.
+                    .row-home-right-container
+                        .row-home-right
+                            .column-home-right
+                                .cont-section
+                                    h1 &#10004 Affordable
+                                    p Smart platform combined with sophisticated app allowing for lower cost and deductible
+                                .cont-section
+                                    h1 &#10004 Competitive
+                                    p Unmatche nationwide coverage backed by a top-rated provider and reliable 24/7 support.
+                            .column-home-right
+                                .cont-section
+                                    h1 &#10004 Easy to use
+                                    p On-demand, easy-to-use, app-driven protectino that enables purchases with the push of the button
+
+            .row-home-left
+                .wrapper
+                    .column-home-left
+                        .sec
+                            h1 Protect your electronics, the way you protect your money.
+                            p No-hassle, electronics protection with the tap of a finger.
+                            br 
+                            button(type='submit') Get Started Now
+                
+            .home-third-section
+                .home-third-section-container
+                    h1 instaProtec App
+                    p Frictionless, app-driven registration and communication
+                    img(src="image/Instaprotek-App.png", alt="Google Play")
+
+    
+        .home-fourthq-section
+            .wrapper
+                .home-fourth-section-container
+                    .row-home-right-container
+                        .row-home-right.sect2_right
+                            .column-home-right
+                                img(src="image/tablet.png", alt="Tablet")
+                            .column-home-right
+                                h2 For your Smartphone,Tablet
+                                    span brand Accessories
+                                p Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.
+                    .sect2_ftr
+                        div
+                            h2 For your wearables
+                            p Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            img(src="image/watch.png", alt="watch")
+                        div
+                            h2 For your Computers
+                            p Lorem ipsum dolor sit, amet consectetur.
+                            img(src="image/laptop.png", alt="laptop")
+
+                button.fourt-sec-btn(type='submit') Explore
+
+    section.Section2
+        .container
+            .Section2__cont
+                .Section2__cont--head
+                    img(src="image/cp-signal.png", alt="t signal")
+                    h2 Lorem ipsum dolor sit amet.
+                        span consectetur adipisicing elitr
+                    p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, commodi iure.
+                .Section2__cont--content
+                    .sect2__sec
+                        img(src="image/phonescanner.png", alt="phone scanner")
+                    .sect2__sec
+                        .inner
+                            span.active 1
+                            h3 Lorem Ipsum
+                            p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat natus error amet modi corporis magni quos suscipit animi dolorum. 
+                    .sect2__sec
+                        .inner
+                            span 2
+                            h3 Lorem Ipsum
+                            p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat natus error amet modi corporis magni quos suscipit animi dolorum. 
+                    .sect2__sec
+                        .inner
+                            span 3
+                            h3 Lorem Ipsum
+                            p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat natus error amet modi corporis magni quos suscipit animi dolorum. 
+                    .sect2__sec
+                        .inner
+                            span 4
+                            h3 Lorem Ipsum
+                            p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat natus error amet modi corporis magni quos suscipit animi dolorum. 
+        
+    section.Section3
+        .container
+            //- include ../components/modal
+            .Section3__cont
+                p Increase your revenue even more by providing affordable electronics protection plans for all of your customer's electronics through the same 
+                    span  Registration App.
+                .Section3__cont--footer
+                    figure
+                        img(src="image/video.png", alt="video")
+                    .right_sec
+                        h3 How instaProtek works?
+                        a(href="javascript:;").btn_showmodal
+                            i.fa.fa-play-circle
+                            span Watch video
+        
+
+    section.Section4
+        .container
+            .Section4__cont
+                .Section4__cont--header
+                    h2 Same Reliable Coverage at Lower Prices!
+                        span iPhone X 64GB ($999.99)
+                    p 2-years warranty with accidental damage
+                .Section4__cont--graph
+                    img(src="image/graph.png", alt="graph")
+                .Section4__cont--ftr
+                    figure
+                        img(src="image/dashboard.jpg", alt="dashboard")
+                        img(src="image/graphdashboard.png", alt="graph")
+                    .sect4_content
+                        .sect
+                            img(src="image/iconcheck.png", alt="icon check")
+                            h3 Product Guarantee
+                            p Intelligent and modern app-based solution built for electronic products distributors. It's a cost-efficient tool made to help increase business revenue and customer satisfaction by setting products apart from the competition through dependable products guarantee services.
+                            a(href="#") Learn More
+                        
+                    img(src="image/floatingline.png", alt="line").line_left
+                    
+    section.Section5
+        .container
+            .Section5__cont
+                .Section5__cont--inner
+                    .sect_left
+                        img(src="image/icon_phone_tab.png", alt="icon")
+                        h2 Product Guarantee
+                            span &amp; Protection Platform
+                        p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis illo nesciunt nemo minima blanditiis aliquid error consectetur fuga.
+                        a(href="#") Contact Us
+                    figure.sec5_fig
+                        img(src="image/sect5img.png", alt="laptop and tablet")
+                .floating
+                    figure
+                        img(src="image/floatingline.png", alt="line")
+
+    section.Section6
+        .container
+            .Section6__cont
+                .Section6__cont--inner
+                    figure
+                        img(src="image/sec6_img.png", alt="man holding phone")
+                    .sec6_content
+                        h2 Realiable
+                        p "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, nihil voluptate? Aliquam impedit a nostrum aut. Eum, ratione, repellat."
+                        .rating 
+                            p John Doe
+                                span 
+                                    i.fa.fa-star
+                                    i.fa.fa-star
+                                    i.fa.fa-star
+                                    i.fa.fa-star
+                                    i.fa.fa-star
+    section.Section7
+        .container
+            .Section7__cont
+                .Section7__cont--inner
+                    .sec7_left
+                        h2 Frequently asked question
+                        p If you have any other questins about our device insurance, you can checkout our common question here!
+                        .accordion
+                            .accordion__list
+                                .accordion__list--item.item
+                                    h3 How do I register my device?
+                                        span 
+                                            i.fa.fa-plus
+                                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolore consectetur.
+                                .accordion__list--item.item
+                                    h3 What is the step by step process of registration using the app?
+                                        span 
+                                            i.fa.fa-plus
+                                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolore consectetur.
+                                .accordion__list--item.item
+                                    h3 How long does my limited warranty last?
+                                        span 
+                                            i.fa.fa-plus
+                                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolore consectetur.
+                                .accordion__list--item.item
+                                    h3 How can I file a claim?
+                                        span 
+                                            i.fa.fa-plus 
+                                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dolore consectetur.
+                    figure.sec7_fig
+                        img(src="image/faq.png", alt="faq")
+    section.Section8
+        .container
+            .Section8__cont
+                .Section8__cont--inner
+                    figure
+                        img(src="image/phonefooter.png", alt="phone")
+                        img(src="image/phonefooter2.png", alt="phone")
+
+                    .sec8_right
+                        h2 Protect your electronics the way you protect you money
+                        p No-hassle. Electonics protection with the tap if a finger
+                        .appstore
+                            a(href="#")
+                                img(src="image/google.png", alt="google play")
+                            a(href="#")
+                                img(src="image/playstore.png", alt="app store")
+
+    footer.Footer
+        .container
+            .Footer__cont
+                
+                .Footer__cont--inner
+                    .logo
+                        a(href="#")
+                            img(src="image/logo_full_light.png", alt="Logo")
+                    .links
+                        h2 Navigate
+                        .link_cont
+                            a(href="#") About
+                            a(href="#") Contact Us
+                            a(href="#") Terms &amp; Conditions
+                    .contact
+                        h2 Contact Us
+                        ul
+                            li 1Wringly
+                                span Irvine, CA 92618
+                                i.fa.fa-map-marker
+                            li 888-800-5938
+                                i.fa.fa-phone
+                            li For Inquiries: 
+                                a(href="mailto:Info@intotoware.com") Info@intotoware.com
+                                i.fa.fa-envelope
+                .Footer__cont--ftr
+                    - let year = new Date().getFullYear();
+                    .ftr_sec &copy;#{year} InstaProtek, Inc. All Rights Reserved | instaProtek Respects your privacy.
+                    .ftr_sec Powered By {dna:micro}
+
+    //- .home-seventh-section
+    //-     .home-seventh-section-container
+    //-         h1 Same Reliable Coverage at Lower Prices!
+    //-         h1 iPhone X 64GB ($999.99)
+    //-         .home-seventh-section-images
+    //-         img(src="image/graph.png", alt="Graph")
+    
+    //- .home-eighth-section
+    //-     .home-eighth-section-container
+    //-         img(src="image/prod-guarantee.png", alt="Graph")
+    //-         img(src="image/2.png", alt="Graph")
+    //-         img(src="image/vertical.png", alt="Vertical")
+    //-         h1 Product Guarantee
+    //-         button.fourt-sec-btn(type='submit') Learn More
+
+                
+                
+
+
+
+
+
+    script(src="https://code.jquery.com/jquery-3.5.1.min.js")
+    script(src="js/slider.js")
+
+
+
+
+        
+
+      
+
+
+            
+
+                    
+
